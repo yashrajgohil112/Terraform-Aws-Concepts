@@ -1,0 +1,48 @@
+AWS + Terraform Explained Simply: Day 1 of 30-Day Challenge
+
+
+I’ve started the 30 Days AWS + Terraform challenge, and Day 1 was all about why Infrastructure as Code exists and how Terraform helps.
+Here’s a quick, story-style, point-wise summary 👇
+
+The Problem (Traditional Way)
+Too many manual clicks in the cloud console
+Same setup repeated again and again
+Easy to miss steps and break things
+Hard to scale and maintain
+👉 Works for small setups, fails at scale
+
+The Solution: Infrastructure as Code (IaC)
+Infrastructure as Code = Infrastructure written as code
+
+🧾 Define servers, networks, rules in files
+🔁 Reuse the same code for dev, stage, prod
+📦 Track changes using Git
+Example: Instead of clicking to create an EC2, write code → run a command → EC2 is ready
+
+Why IaC Matters
+✅ Same environment everywhere
+⏱️ Saves hours of manual work
+📈 Scale from 1 → 100 servers easily
+💸 Control costs with easy cleanup
+🤝 Teams collaborate better
+❌ Fewer human mistakes
+
+Benefits of IaC
+Write once, deploy many
+Automated setup & cleanup
+Version-controlled infrastructure
+Developers focus on apps, not infra
+Easy to recreate production for debugging
+What is Terraform?
+Terraform is an Infrastructure as Code tool that:
+
+Works with AWS and other clouds
+Uses simple, readable configuration files
+Talks to cloud APIs for you
+👉 You define what you want, Terraform handles how to build it
+
+Terraform Workflow
+terraform init → setup project
+terraform plan → see what will change
+terraform apply → create resources
+terraform destroy → clean everything

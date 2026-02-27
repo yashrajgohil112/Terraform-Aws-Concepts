@@ -114,6 +114,38 @@ dynamic "block_name" {
 **Best Practices:**
 1. Use meaningful iterator names (not just `item`)
 2. Keep dynamic blocks simple
+
+### 3. Splat Expressions
+
+**What it does:**  
+Extracts attribute values from all elements in a list in a single, concise expression. The `[*]` operator is the splat operator.
+
+**Syntax:**
+```hcl
+resource_list[*].attribute_name
+```
+
+**How it works:**
+- Takes a list of resources/objects
+- Extracts specified attribute from each element
+- Returns a new list with just those values
+
+**Use Cases:**
+- ✅ Get all instance IDs from multiple EC2 instances
+- ✅ Extract all subnet IDs from a VPC
+- ✅ Collect all security group IDs
+- ✅ Get private IPs from instance list
+- ✅ Extract ARNs for outputs
+- ✅ Gather resource attributes for other resources
+
+---
+
+## 🚀 Next Steps
+
+Proceed to **Day 11** to learn about Terraform's built-in functions and how to use them effectively in your configurations.
+
+---
+
 3. Document the expected data structure
 4. Validate input variables
 5. Avoid nesting dynamic blocks too deeply

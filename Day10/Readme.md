@@ -6,7 +6,6 @@
 - **Splat Expressions** - Extract values from lists efficiently
 
 ---
-
 ## 🎯 Learning Objectives
 
 By the end of this lesson, you will:
@@ -16,7 +15,6 @@ By the end of this lesson, you will:
 4. Understand when to use each expression type
 5. Combine multiple expression types for powerful configurations
 6. Write cleaner, more maintainable Terraform code
-
 ---
 
 ## 🔧 Expressions Explained

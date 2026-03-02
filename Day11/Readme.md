@@ -56,3 +56,31 @@ terraform destroy -auto-approve
 ```
 
 ---
+
+## 📖 Function Categories
+
+### String Functions
+`lower()`, `upper()`, `replace()`, `substr()`, `trim()`, `split()`, `join()`, `chomp()`
+
+### Numeric Functions
+`abs()`, `max()`, `min()`, `ceil()`, `floor()`, `sum()`
+ 
+### Collection Functions
+`length()`, `concat()`, `merge()`, `reverse()`, `toset()`, `tolist()`
+
+### Type Conversion
+`tonumber()`, `tostring()`, `tobool()`, `toset()`, `tolist()`
+
+### File Functions
+`file()`, `fileexists()`, `dirname()`, `basename()`
+
+### Date/Time Functions
+`timestamp()`, `formatdate()`, `timeadd()`art
+
+### Validation Functions
+`can()`, `regex()`, `contains()`, `startswith()`, `endswith()`
+
+### Lookup Functions
+`lookup()`, `element()`, `index()`
+
+---

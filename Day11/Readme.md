@@ -35,3 +35,24 @@ trim("  hello  ")
 chomp("hello\n")
 reverse(["a", "b", "c"])
 ```
+## 🚀 Quick Start
+
+```bash
+# Navigate to directory
+cd /home/baivab/repos/Terraform-Full-Course-Aws/lessons/day11-12
+
+# Initialize
+terraform init
+
+# Start with Assignment 1 (already uncommented)
+terraform plan
+terraform apply -auto-approve
+
+# View outputs
+terraform output
+
+# Cleanup
+terraform destroy -auto-approve
+```
+
+---

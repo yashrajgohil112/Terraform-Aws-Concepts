@@ -7,6 +7,7 @@ Welcome to the Terraform Functions comprehensive learning guide! This two-day mo
 
 **📋 For step-by-step demo instructions, see [DEMO_GUIDE.md](DEMO_GUIDE.md)**
 
+
 ---
 
 ## 🎯 Learning Objectives

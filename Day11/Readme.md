@@ -84,3 +84,15 @@ terraform destroy -auto-approve
 `lookup()`, `element()`, `index()`
 
 ---
+## 📁 Files
+
+- `README.md` - This overview
+- `DEMO_GUIDE.md` - **Step-by-step demo instructions**
+- `provider.tf` - AWS provider setup
+- `backend.tf` - S3 backend (optional)
+- `variables.tf` - All assignment variables
+- `main.tf` - All 12 assignments (commented structure)
+- `outputs.tf` - Assignment outputs (commented)
+
+
+---

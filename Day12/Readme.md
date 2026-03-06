@@ -25,3 +25,17 @@ Our Terraform code will:
 2.  **Use Data Source Outputs:**
     *   The `aws_instance` resource uses `data.aws_subnet.shared.id` to launch into the existing subnet.
     *   The `aws_instance` resource also uses `data.aws_ami.amazon_linux_2.id` for the AMI.
+
+## How to Run This Demo
+
+### 1. Create the Pre-existing Infrastructure
+
+First, we need to simulate the creation of the shared network resources.
+
+```bash
+cd lessons/day13/code/setup
+terraform init
+terraform apply
+```
+
+This will create a VPC and a subnet.

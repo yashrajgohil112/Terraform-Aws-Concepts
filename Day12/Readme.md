@@ -61,3 +61,11 @@ terraform apply
 2.  Find the instance named `day13-instance`.
 3.  Check its "Networking" details. You will see that it is in the `shared-network-vpc` and `shared-primary-subnet`, confirming that the data sources worked correctly.
 
+### 4. Cleanup
+
+To destroy the resources created in this lesson:
+
+```bash
+# Destroy the instance
+cd lessons/day13/code
+terraform destroy

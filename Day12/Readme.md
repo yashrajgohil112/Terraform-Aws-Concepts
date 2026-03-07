@@ -55,3 +55,9 @@ terraform plan
 ```bash
 terraform apply
 ```
+### 3. Verification
+
+1.  Go to the AWS EC2 console.
+2.  Find the instance named `day13-instance`.
+3.  Check its "Networking" details. You will see that it is in the `shared-network-vpc` and `shared-primary-subnet`, confirming that the data sources worked correctly.
+

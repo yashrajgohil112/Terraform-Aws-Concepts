@@ -39,3 +39,19 @@ terraform apply
 ```
 
 This will create a VPC and a subnet.
+
+### 2. Provision the EC2 Instance
+
+Now, we'll run the main Terraform configuration that uses data sources.
+
+```bash
+cd ../.. # Go back to the day13/code directory
+terraform init
+terraform plan
+```
+
+**Expected Plan Output:** The plan should show that Terraform will create **1 new resource**: an `aws_instance`. It should **not** show any changes to the VPC or subnet.
+
+```bash
+terraform apply
+```

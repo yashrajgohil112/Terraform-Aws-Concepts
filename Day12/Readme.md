@@ -69,3 +69,8 @@ To destroy the resources created in this lesson:
 # Destroy the instance
 cd lessons/day13/code
 terraform destroy
+
+# Destroy the shared VPC and subnet
+cd setup
+terraform destroy
+```

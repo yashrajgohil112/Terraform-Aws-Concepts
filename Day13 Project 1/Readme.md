@@ -51,3 +51,28 @@ day14/
    - S3 bucket creation and management
    - CloudFront distribution creation
    - IAM policies for S3 public access
+
+## 📋 Deployment Steps
+
+### 1. Initialize Terraform
+```bash
+cd lessons/day14
+terraform init
+```
+
+### 2. Review the Plan
+```bash
+terraform plan
+```
+
+### 3. Deploy Infrastructure
+```bash
+terraform apply
+```
+Type `yes` when prompted to confirm deployment.
+
+### 4. Access Your Website
+After deployment completes, Terraform will output the CloudFront URL:
+```
+website_url = "https://d123xyz.cloudfront.net"
+```

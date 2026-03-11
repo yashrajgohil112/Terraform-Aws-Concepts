@@ -13,3 +13,17 @@ Internet → CloudFront Distribution → S3 Bucket (Static Website)
 - **S3 Bucket**: Hosts static website files (HTML, CSS, JS)
 - **CloudFront Distribution**: Global CDN for fast content delivery
 - **Public Access Configuration**: Allows public reading of website files
+
+## 📁 Project Structure
+
+```
+day14/
+├── main.tf              # Main Terraform configuration
+├── variables.tf         # Input variables
+├── outputs.tf          # Output values
+├── README.md           # This file
+└── www/                # Website source files
+    ├── index.html      # Main HTML page
+    ├── style.css       # Stylesheet
+    └── script.js       # JavaScript functionality
+```

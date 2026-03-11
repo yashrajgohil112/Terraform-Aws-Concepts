@@ -27,3 +27,18 @@ day14/
     ├── style.css       # Stylesheet
     └── script.js       # JavaScript functionality
 ```
+
+## 🚀 Features
+
+### Website Features:
+- **Modern Responsive Design**: Works on desktop and mobile
+- **Dark/Light Theme Toggle**: Switch between themes (saves preference)
+- **Interactive Elements**: Click counter, status updates
+- **AWS Branding**: Professional layout showcasing AWS services
+- **Animations**: Smooth transitions and loading effects
+
+### Infrastructure Features:
+- **S3 Static Website Hosting**: Reliable file storage and serving
+- **CloudFront CDN**: Global content delivery with HTTPS
+- **Proper MIME Types**: Correct content-type headers for all files
+- **Public Access**: Secure public read access configuration

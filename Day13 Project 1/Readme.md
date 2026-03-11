@@ -42,3 +42,12 @@ day14/
 - **CloudFront CDN**: Global content delivery with HTTPS
 - **Proper MIME Types**: Correct content-type headers for all files
 - **Public Access**: Secure public read access configuration
+
+## 🛠️ Prerequisites
+
+1. **AWS CLI** configured with appropriate credentials
+2. **Terraform** installed (version 1.0+)
+3. **AWS Account** with sufficient permissions for:
+   - S3 bucket creation and management
+   - CloudFront distribution creation
+   - IAM policies for S3 public access

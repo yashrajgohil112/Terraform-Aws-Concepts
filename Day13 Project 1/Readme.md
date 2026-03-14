@@ -99,3 +99,10 @@ website_url = "https://d123xyz.cloudfront.net"
 - **HTTPS**: Automatic redirect from HTTP to HTTPS
 - **Global**: Available worldwide (PriceClass_100)
 
+## 🧹 Cleanup
+
+To destroy all resources and avoid charges:
+```bash
+terraform destroy
+```
+Type `yes` when prompted to confirm destruction.

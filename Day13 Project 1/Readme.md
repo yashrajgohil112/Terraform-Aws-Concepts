@@ -92,3 +92,10 @@ website_url = "https://d123xyz.cloudfront.net"
 - **Website hosting**: Enabled with `index.html` as default
 - **Public access**: Configured for read-only public access
 - **Content types**: Proper MIME types for web files
+
+### CloudFront Configuration:
+- **Origin**: S3 bucket regional domain
+- **Caching**: Standard web caching (1 hour default TTL)
+- **HTTPS**: Automatic redirect from HTTP to HTTPS
+- **Global**: Available worldwide (PriceClass_100)
+

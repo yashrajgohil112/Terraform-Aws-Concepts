@@ -84,3 +84,11 @@ website_url = "https://d123xyz.cloudfront.net"
 | S3 Bucket Policy | Public read access | 1 |
 | S3 Objects | Website files (HTML, CSS, JS) | 3 |
 | CloudFront Distribution | Global CDN | 1 |
+
+## 🔧 Configuration Details
+
+### S3 Configuration:
+- **Bucket naming**: Auto-generated with prefix `my-static-website-`
+- **Website hosting**: Enabled with `index.html` as default
+- **Public access**: Configured for read-only public access
+- **Content types**: Proper MIME types for web files

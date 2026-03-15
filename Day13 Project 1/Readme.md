@@ -106,3 +106,13 @@ To destroy all resources and avoid charges:
 terraform destroy
 ```
 Type `yes` when prompted to confirm destruction.
+
+## 📚 Learning Objectives
+
+After completing this project, you should understand:
+- ✅ How to configure S3 for static website hosting
+- ✅ Setting up CloudFront distributions
+- ✅ Managing S3 bucket policies and public access
+- ✅ Terraform file provisioning with `for_each`
+- ✅ Proper MIME type configuration for web assets
+- ✅ AWS CDN concepts and caching strategies

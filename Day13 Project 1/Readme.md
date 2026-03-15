@@ -116,3 +116,9 @@ After completing this project, you should understand:
 - ✅ Terraform file provisioning with `for_each`
 - ✅ Proper MIME type configuration for web assets
 - ✅ AWS CDN concepts and caching strategies
+
+## 🔗 Useful Links
+
+- [AWS S3 Static Website Hosting Guide](https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteHosting.html)
+- [CloudFront Documentation](https://docs.aws.amazon.com/cloudfront/)
+- [Terraform AWS Provider](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)

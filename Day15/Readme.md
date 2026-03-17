@@ -22,3 +22,24 @@ This demo showcases **AWS VPC Peering** by creating two VPCs in different AWS re
                   │                                             │
                   └───────────────VPC Peering──────────────────┘
 ```
+## What This Demo Creates
+
+### Networking Components
+1. **Two VPCs**:
+   - Primary VPC in us-east-1 (10.0.0.0/16)
+   - Secondary VPC in us-west-2 (10.1.0.0/16)
+
+2. **Subnets**:
+   - One public subnet in each VPC
+   - Configured with auto-assign public IP
+
+3. **Internet Gateways**:
+   - One for each VPC to allow internet access
+
+4. **Route Tables**:
+   - Custom route tables with routes to internet and peered VPC
+   - Routes for VPC peering traffic
+
+5. **VPC Peering Connection**:
+   - Cross-region peering between the two VPCs
+   - Automatic acceptance configured

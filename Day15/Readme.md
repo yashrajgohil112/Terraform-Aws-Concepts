@@ -43,3 +43,10 @@ This demo showcases **AWS VPC Peering** by creating two VPCs in different AWS re
 5. **VPC Peering Connection**:
    - Cross-region peering between the two VPCs
    - Automatic acceptance configured
+
+### Compute Resources
+1. **EC2 Instances**:
+   - One t2.micro instance in each VPC
+   - Running Amazon Linux 2
+   - Apache web server installed
+   - Custom web page showing VPC information

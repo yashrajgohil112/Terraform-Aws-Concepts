@@ -50,3 +50,8 @@ This demo showcases **AWS VPC Peering** by creating two VPCs in different AWS re
    - Running Amazon Linux 2
    - Apache web server installed
    - Custom web page showing VPC information
+
+2. **Security Groups**:
+   - SSH access from anywhere (port 22)
+   - ICMP (ping) allowed from peered VPC
+   - All TCP traffic allowed between VPCs

@@ -62,3 +62,15 @@ This demo showcases **AWS VPC Peering** by creating two VPCs in different AWS re
 2. **AWS CLI** configured with credentials
 3. **Terraform** installed (version >= 1.0)
 4. **SSH Key Pair** created in both regions (use the same name)
+
+### Creating SSH Key Pairs
+```bash
+# For us-east-1
+aws ec2 create-key-pair --key-name vpc-peering-demo --region us-east-1 --query 'KeyMaterial' --output text > vpc-peering-demo.pem
+
+# For us-west-2
+aws ec2 create-key-pair --key-name vpc-peering-demo --region us-west-2 --query 'KeyMaterial' --output text > vpc-peering-demo-west.pem
+
+# Set permissions (on Linux/Mac)
+chmod 400 vpc-peering-demo.pem
+```

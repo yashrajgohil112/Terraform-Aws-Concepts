@@ -55,3 +55,10 @@ This demo showcases **AWS VPC Peering** by creating two VPCs in different AWS re
    - SSH access from anywhere (port 22)
    - ICMP (ping) allowed from peered VPC
    - All TCP traffic allowed between VPCs
+
+## Prerequisites
+
+1. **AWS Account** with appropriate permissions
+2. **AWS CLI** configured with credentials
+3. **Terraform** installed (version >= 1.0)
+4. **SSH Key Pair** created in both regions (use the same name)

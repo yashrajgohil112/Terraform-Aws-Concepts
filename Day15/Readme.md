@@ -80,3 +80,13 @@ chmod 400 vpc-peering-demo.pem
 ```bash
 cd lessons/day15
 ```
+### 2. Configure Variables
+Copy the example tfvars file and update it:
+```bash
+cp terraform.tfvars.example terraform.tfvars
+```
+
+Edit `terraform.tfvars` and add your key pair name:
+```hcl
+key_name = "vpc-peering-demo"
+```

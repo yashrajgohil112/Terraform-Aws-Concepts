@@ -74,3 +74,9 @@ aws ec2 create-key-pair --key-name vpc-peering-demo --region us-west-2 --query '
 # Set permissions (on Linux/Mac)
 chmod 400 vpc-peering-demo.pem
 ```
+## Setup Instructions
+
+### 1. Clone and Navigate
+```bash
+cd lessons/day15
+```

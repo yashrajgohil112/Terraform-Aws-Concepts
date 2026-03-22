@@ -94,3 +94,7 @@ key_name = "vpc-peering-demo"
 ```bash
 terraform init
 ```
+### 4. Review the Plan
+```bash
+terraform plan
+```

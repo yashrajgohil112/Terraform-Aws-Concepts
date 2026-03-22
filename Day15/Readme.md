@@ -90,3 +90,7 @@ Edit `terraform.tfvars` and add your key pair name:
 ```hcl
 key_name = "vpc-peering-demo"
 ```
+### 3. Initialize Terraform
+```bash
+terraform init
+```

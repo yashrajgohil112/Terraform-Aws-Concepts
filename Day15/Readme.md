@@ -104,3 +104,7 @@ terraform apply
 ```
 
 Type `yes` when prompted.
+
+## Testing VPC Peering
+
+After the infrastructure is created, you can test the VPC peering connection:

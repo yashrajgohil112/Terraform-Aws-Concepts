@@ -98,3 +98,9 @@ terraform init
 ```bash
 terraform plan
 ```
+### 5. Apply the Configuration
+```bash
+terraform apply
+```
+
+Type `yes` when prompted.

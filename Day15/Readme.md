@@ -113,3 +113,14 @@ After the infrastructure is created, you can test the VPC peering connection:
 ```bash
 terraform output
 ```
+### 2. Test Connectivity from Primary to Secondary
+```bash
+# SSH into Primary instance
+ssh -i vpc-peering-demo.pem ec2-user@<PRIMARY_PUBLIC_IP>
+
+# Ping the Secondary instance using its private IP
+ping <SECONDARY_PRIVATE_IP>
+
+# Test HTTP connectivity
+curl http://<SECONDARY_PRIVATE_IP>
+```

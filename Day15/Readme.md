@@ -135,3 +135,9 @@ ping <PRIMARY_PRIVATE_IP>
 # Test HTTP connectivity
 curl http://<PRIMARY_PRIVATE_IP>
 ```
+## Key Concepts Demonstrated
+
+### 1. VPC Peering
+- Cross-region VPC peering connection
+- Peering connection requester and accepter
+- Automatic acceptance configuration

@@ -124,3 +124,14 @@ ping <SECONDARY_PRIVATE_IP>
 # Test HTTP connectivity
 curl http://<SECONDARY_PRIVATE_IP>
 ```
+### 3. Test Connectivity from Secondary to Primary
+```bash
+# SSH into Secondary instance
+ssh -i vpc-peering-demo.pem ec2-user@<SECONDARY_PUBLIC_IP>
+
+# Ping the Primary instance using its private IP
+ping <PRIMARY_PRIVATE_IP>
+
+# Test HTTP connectivity
+curl http://<PRIMARY_PRIVATE_IP>
+```

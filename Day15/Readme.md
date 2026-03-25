@@ -146,3 +146,8 @@ curl http://<PRIMARY_PRIVATE_IP>
 - Route tables with peering routes
 - Traffic routing between VPCs
 - Internet gateway routes
+
+### 3. Security
+- Security groups allowing cross-VPC traffic
+- ICMP and TCP rules
+- Proper egress rules

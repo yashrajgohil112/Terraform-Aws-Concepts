@@ -141,3 +141,8 @@ curl http://<PRIMARY_PRIVATE_IP>
 - Cross-region VPC peering connection
 - Peering connection requester and accepter
 - Automatic acceptance configuration
+
+### 2. Routing
+- Route tables with peering routes
+- Traffic routing between VPCs
+- Internet gateway routes

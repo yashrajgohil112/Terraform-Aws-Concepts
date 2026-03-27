@@ -156,3 +156,9 @@ curl http://<PRIMARY_PRIVATE_IP>
 - Using provider aliases for different regions
 - Cross-region resource dependencies
 - Regional AMI selection
+## Important Notes
+
+### CIDR Blocks
+- VPC CIDR blocks **must not overlap** for peering to work
+- Primary VPC: 10.0.0.0/16
+- Secondary VPC: 10.1.0.0/16

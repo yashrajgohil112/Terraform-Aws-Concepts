@@ -151,3 +151,8 @@ curl http://<PRIMARY_PRIVATE_IP>
 - Security groups allowing cross-VPC traffic
 - ICMP and TCP rules
 - Proper egress rules
+
+### 4. Multi-Region Deployment
+- Using provider aliases for different regions
+- Cross-region resource dependencies
+- Regional AMI selection

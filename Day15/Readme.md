@@ -173,3 +173,7 @@ This demo creates resources that incur AWS charges:
 ```bash
 terraform destroy
 ```
+### Limitations
+- VPC peering is **not transitive** (if A peers with B, and B peers with C, A cannot communicate with C)
+- VPC peering does not support **edge-to-edge routing**
+- Maximum of **125** peering connections per VPC

@@ -162,3 +162,14 @@ curl http://<PRIMARY_PRIVATE_IP>
 - VPC CIDR blocks **must not overlap** for peering to work
 - Primary VPC: 10.0.0.0/16
 - Secondary VPC: 10.1.0.0/16
+
+### Costs
+This demo creates resources that incur AWS charges:
+- EC2 instances (t2.micro)
+- Data transfer between regions
+- VPC peering data transfer
+
+**Remember to destroy resources when done:**
+```bash
+terraform destroy
+```

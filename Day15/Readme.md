@@ -185,3 +185,11 @@ terraform destroy
 2. Verify route tables have routes to the peered VPC
 3. Ensure VPC peering connection is in "active" state
 4. Check NACL rules (if configured)
+
+## Troubleshooting
+
+### Cannot Connect Between Instances
+1. Check security groups allow traffic from the peered VPC CIDR
+2. Verify route tables have routes to the peered VPC
+3. Ensure VPC peering connection is in "active" state
+4. Check NACL rules (if configured)

@@ -177,3 +177,11 @@ terraform destroy
 - VPC peering is **not transitive** (if A peers with B, and B peers with C, A cannot communicate with C)
 - VPC peering does not support **edge-to-edge routing**
 - Maximum of **125** peering connections per VPC
+
+## Troubleshooting
+
+### Cannot Connect Between Instances
+1. Check security groups allow traffic from the peered VPC CIDR
+2. Verify route tables have routes to the peered VPC
+3. Ensure VPC peering connection is in "active" state
+4. Check NACL rules (if configured)

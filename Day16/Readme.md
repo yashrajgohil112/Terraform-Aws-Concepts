@@ -9,3 +9,10 @@ This demo demonstrates how to manage AWS IAM users, groups, and group membership
 - **3 IAM Groups** (Education, Managers, Engineers)
 - **Group Memberships** based on user attributes
 - **User Tags** with metadata (DisplayName, Department, JobTitle)
+
+## Prerequisites
+
+1. **AWS CLI** configured with credentials
+2. **Terraform** v1.0 or later
+3. **AWS Permissions**: IAM user creation and management permissions
+4. **S3 Bucket** for Terraform state (see setup below)

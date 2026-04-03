@@ -200,4 +200,10 @@ terraform destroy
 3. Ensure instance has a public IP address
 4. Verify internet gateway and route table configuration
 
-## Clean
+## Cleanup
+
+To avoid ongoing charges, destroy all resources:
+```bash
+terraform destroy
+```
+

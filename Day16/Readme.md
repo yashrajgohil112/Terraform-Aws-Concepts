@@ -16,3 +16,12 @@ This demo demonstrates how to manage AWS IAM users, groups, and group membership
 2. **Terraform** v1.0 or later
 3. **AWS Permissions**: IAM user creation and management permissions
 4. **S3 Bucket** for Terraform state (see setup below)
+
+## Quick Start
+
+### 1. Create S3 Backend Bucket
+
+```powershell
+aws s3 mb s3://my-terraform-state-bucket-piyushsachdeva --region us-east-1
+aws s3api put-bucket-versioning --bucket my-terraform-state-bucket-piyushsachdeva --versioning-configuration Status=Enabled
+```

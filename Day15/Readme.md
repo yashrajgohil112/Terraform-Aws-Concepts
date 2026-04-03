@@ -193,3 +193,11 @@ terraform destroy
 2. Verify route tables have routes to the peered VPC
 3. Ensure VPC peering connection is in "active" state
 4. Check NACL rules (if configured)
+
+### SSH Connection Issues
+1. Verify key pair exists in the correct region
+2. Check security group allows SSH (port 22)
+3. Ensure instance has a public IP address
+4. Verify internet gateway and route table configuration
+
+## Clean

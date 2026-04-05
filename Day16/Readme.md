@@ -47,3 +47,18 @@ terraform apply -auto-approve
 Go to [IAM Console](https://console.aws.amazon.com/iam/) and check:
 - **Users** section - 26 users created
 - **User groups** section - 3 groups with members
+
+
+## File Structure
+
+```
+day16/
+├── backend.tf          # S3 backend configuration
+├── provider.tf         # AWS provider setup
+├── versions.tf         # Terraform and provider versions
+├── main.tf            # User creation and CSV parsing
+├── groups.tf          # Group and membership management
+├── users.csv          # User data source
+├── DEMO_GUIDE.md      # Comprehensive demo walkthrough
+└── README.md          # This file
+```

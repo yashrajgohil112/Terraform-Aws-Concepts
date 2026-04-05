@@ -62,3 +62,14 @@ day16/
 ├── DEMO_GUIDE.md      # Comprehensive demo walkthrough
 └── README.md          # This file
 ```
+## How It Works
+
+### Step 1: Read CSV File
+
+The `main.tf` file reads the `users.csv` file:
+
+```terraform
+locals {
+  users = csvdecode(file("users.csv"))
+}
+```

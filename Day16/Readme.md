@@ -36,3 +36,14 @@ terraform init
 ```powershell
 terraform plan
 ```
+### 4. Apply Configuration
+
+```powershell
+terraform apply -auto-approve
+```
+
+### 5. Verify in AWS Console
+
+Go to [IAM Console](https://console.aws.amazon.com/iam/) and check:
+- **Users** section - 26 users created
+- **User groups** section - 3 groups with members

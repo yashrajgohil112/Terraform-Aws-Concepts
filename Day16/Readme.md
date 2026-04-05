@@ -25,3 +25,14 @@ This demo demonstrates how to manage AWS IAM users, groups, and group membership
 aws s3 mb s3://my-terraform-state-bucket-piyushsachdeva --region us-east-1
 aws s3api put-bucket-versioning --bucket my-terraform-state-bucket-piyushsachdeva --versioning-configuration Status=Enabled
 ```
+### 2. Initialize Terraform
+
+```powershell
+terraform init
+```
+
+### 3. Review Changes
+
+```powershell
+terraform plan
+```

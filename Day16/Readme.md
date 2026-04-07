@@ -91,3 +91,15 @@ resource "aws_iam_user" "users" {
   }
 }
 ```
+### Step 3: Enable Console Access
+
+Login profiles are created for console access with password reset required:
+
+```terraform
+resource "aws_iam_user_login_profile" "users" {
+  for_each = aws_iam_user.users
+  
+  user                    = each.value.name
+  password_reset_required = true
+}
+```

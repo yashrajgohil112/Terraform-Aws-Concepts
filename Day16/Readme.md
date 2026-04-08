@@ -123,3 +123,17 @@ resource "aws_iam_group_membership" "education_members" {
   ]
 }
 ```
+## Outputs
+
+After applying, you can view the outputs:
+
+```powershell
+# View AWS Account ID
+terraform output account_id
+
+# View all user names
+terraform output user_names
+
+# View password information (sensitive)
+terraform output user_passwords
+```

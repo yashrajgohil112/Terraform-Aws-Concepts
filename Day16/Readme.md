@@ -103,3 +103,23 @@ resource "aws_iam_user_login_profile" "users" {
   password_reset_required = true
 }
 ```
+### Step 4: Create Groups and Memberships
+
+Groups are created and users are dynamically assigned based on their department:
+
+```terraform
+resource "aws_iam_group" "education" {
+  name = "Education"
+  path = "/groups/"
+}
+
+resource "aws_iam_group_membership" "education_members" {
+  name  = "education-group-membership"
+  group = aws_iam_group.education.name
+  
+  users = [
+    for user in aws_iam_user.users : user.name 
+    if user.tags.Department == "Education"
+  ]
+}
+```

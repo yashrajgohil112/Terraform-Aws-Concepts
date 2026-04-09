@@ -137,3 +137,15 @@ terraform output user_names
 # View password information (sensitive)
 terraform output user_passwords
 ```
+## User List
+
+The following users are created from `users.csv`:
+
+| Username | Full Name | Department | Job Title |
+|----------|-----------|------------|-----------|
+| mscott | Michael Scott | Education | Regional Manager |
+| dschrute | Dwight Schrute | Sales | Assistant to the Regional Manager |
+| jhalpert | Jim Halpert | Sales | Sales Representative |
+| pbeesly | Pam Beesly | Reception | Receptionist |
+| rhoward | Ryan Howard | Temps | Temp |
+| ... and 21 more users |

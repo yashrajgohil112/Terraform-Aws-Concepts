@@ -149,3 +149,8 @@ The following users are created from `users.csv`:
 | pbeesly | Pam Beesly | Reception | Receptionist |
 | rhoward | Ryan Howard | Temps | Temp |
 | ... and 21 more users |
+
+## Groups and Memberships
+
+### Education Group
+- Michael Scott (mscott)

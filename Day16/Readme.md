@@ -154,3 +154,14 @@ The following users are created from `users.csv`:
 
 ### Education Group
 - Michael Scott (mscott)
+
+## Customization
+
+### Add More Users
+
+Edit `users.csv` and add new rows:
+
+```csv
+first_name,last_name,department,job_title
+Jane,Doe,Engineering,Software Engineer
+```

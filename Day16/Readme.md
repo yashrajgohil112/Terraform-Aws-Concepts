@@ -165,3 +165,8 @@ Edit `users.csv` and add new rows:
 first_name,last_name,department,job_title
 Jane,Doe,Engineering,Software Engineer
 ```
+Then run:
+
+```powershell
+terraform apply
+```

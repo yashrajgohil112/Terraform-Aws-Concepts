@@ -170,3 +170,13 @@ Then run:
 ```powershell
 terraform apply
 ```
+### Add IAM Policies to Groups
+
+Add to `groups.tf`:
+
+```terraform
+resource "aws_iam_group_policy_attachment" "education_readonly" {
+  group      = aws_iam_group.education.name
+  policy_arn = "arn:aws:iam::aws:policy/ReadOnlyAccess"
+}
+```

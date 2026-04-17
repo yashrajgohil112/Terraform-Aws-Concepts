@@ -180,3 +180,15 @@ resource "aws_iam_group_policy_attachment" "education_readonly" {
   policy_arn = "arn:aws:iam::aws:policy/ReadOnlyAccess"
 }
 ```
+
+### Change Username Format
+
+Modify the `name` attribute in `main.tf`:
+
+```terraform
+# Current: {first_initial}{lastname} (e.g., mscott)
+name = lower("${substr(each.value.first_name, 0, 1)}${each.value.last_name}")
+
+# Alternative: {firstname}.{lastname} (e.g., michael.scott)
+name = lower("${each.value.first_name}.${each.value.last_name}")
+```
